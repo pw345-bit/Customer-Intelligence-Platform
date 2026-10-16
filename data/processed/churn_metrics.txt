@@ -1,0 +1,20 @@
+CUSTOMER CHURN MODEL EVALUATION
+Churn: no purchase in the final 90-day outcome window
+
+Training customers: 2696
+Testing customers: 674
+ROC-AUC: 0.5673
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.55      0.42      0.47       337
+           1       0.53      0.66      0.59       337
+
+    accuracy                           0.54       674
+   macro avg       0.54      0.54      0.53       674
+weighted avg       0.54      0.54      0.53       674
+
+Confusion matrix:
+[[140 197]
+ [113 224]]
